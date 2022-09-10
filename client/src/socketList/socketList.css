@@ -1,0 +1,66 @@
+
+.socket {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    border-top: 2px solid;
+    border-color: darkgray;
+    cursor: pointer;
+}
+
+.socket__ticker {
+    background-color: cornflowerblue;
+    color: antiquewhite;
+    border-radius: 8px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socket__price {
+    font-size: 24px;
+    display: flex;
+    justify-self: baseline;
+
+}
+
+.socket__upOrDown {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.socket__godown {
+    align-self: flex-end;
+    margin-top: 16px;
+}
+
+.socket__percent {
+    border-radius: 4px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 64px;
+    padding: 2px 8px 2px 4px;
+}
+
+.socket__percent__up {
+    background-color: rgba(105, 255, 138, 0.3);
+    color: green
+}
+
+.socket__percent__down {
+    background-color: rgba(255, 105, 123, 0.3);
+    color: red;
+}
+
+.socket__up {
+    color: green;
+}
+
+.socket__down {
+    color: red;
+}
